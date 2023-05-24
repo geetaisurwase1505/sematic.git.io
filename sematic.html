@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Semantic Table</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #mainheader {
+            height: 10vh;
+            background-color: rgb(177, 252, 212);
+            text-align: center;
+            padding-top: 20px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            border: 2px solid skyblue;
+        }
+
+        aside {
+            background-color: rgb(247, 244, 252);
+            height: 80vh;
+            width: 30vh;
+            float: left;
+            text-align: center;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            border: 2px solid rgb(177, 252, 212);
+        }
+
+        .subheader {
+            background-color: skyblue;
+            height: 10vh;
+            text-align: center;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            border: 2px solid skyblue;
+            /* text-shadow: 10px 10px 15px rgb(36, 35, 35); */
+        }
+
+        article {
+            background-color: rgb(107, 236, 248);
+            height: 60vh;
+            text-align: center;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            border: 2px solid skyblue;
+            /* text-shadow: 10px 10px 15px gray; */
+        }
+
+        #subfooter {
+            background-color: skyblue;
+            height: 10vh;
+            text-align: center;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            border: 2px solid skyblue;
+        }
+
+        .mainfooter {
+            background-color: rgb(177, 252, 212);
+            height: 10vh;
+            text-align: center;
+            padding-top: 20px;
+            border: 2px solid skyblue;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- header starts -->
+
+    <header id="mainheader">Main Header</header>
+
+    <!-- header end -->
+
+    <!-- section starts -->
+
+    <section>
+        <aside>Aside</aside>
+        <header class="subheader">Sub Header</header>
+        <article>Artical</article>
+        <footer id="subfooter">Sub Footer</footer>
+    </section>
+
+    <!-- section end -->
+
+    <!-- start footer -->
+
+    <footer class="mainfooter">Main Footer</footer>
+
+    <!-- end footer -->
+</body>
+
+</html>
